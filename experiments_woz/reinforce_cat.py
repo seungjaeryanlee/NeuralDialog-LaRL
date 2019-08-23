@@ -20,7 +20,7 @@ def main():
     # RL configuration
     env = 'gpu'
     pretrained_folder = '2019-08-20-04-17-55-sl_cat'
-    pretrained_model_id = 41
+    pretrained_model_id = 36
 
     exp_dir = os.path.join('sys_config_log_model', pretrained_folder, 'rl-'+start_time)
     # create exp folder
