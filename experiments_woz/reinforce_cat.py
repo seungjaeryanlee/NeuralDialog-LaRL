@@ -1,5 +1,5 @@
 import sys, os
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('.'))
 import time
 import os
 import sys
@@ -19,7 +19,7 @@ def main():
     print('[START]', start_time, '='*30)
     # RL configuration
     env = 'gpu'
-    pretrained_folder = '2019-06-20-22-49-55-sl_cat'
+    pretrained_folder = '2019-08-20-04-17-55-sl_cat'
     pretrained_model_id = 41
 
     exp_dir = os.path.join('sys_config_log_model', pretrained_folder, 'rl-'+start_time)
